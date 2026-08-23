@@ -44,10 +44,10 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "0a6568ff-ea3c-4271-9020-450560e10d61");
-    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
+    private static final String UUID = env("UUID", "674cd987-3ca5-45bf-929e-43f90cc15ad6");
+    private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nz.xry.kdns.fr:443");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
-    private static final String NEZHA_KEY = env("NEZHA_KEY", "");
+    private static final String NEZHA_KEY = env("NEZHA_KEY", "oZEaed4hQmmjuTBzga1vE5HlUPFbYvCw");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
@@ -58,9 +58,9 @@ public class App {
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "");
-    private static final String CHAT_ID = env("CHAT_ID", "");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
-    private static final String BOT_TOKEN = env("BOT_TOKEN", "");
+    private static final String NAME = env("NAME", "gamesilo");
+    private static final String CHAT_ID = env("CHAT_ID", "7627328147");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
+    private static final String BOT_TOKEN = env("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
     private static final boolean SHOW_LOG = !List.of("false", "disable", "no").contains(env("SHOW_LOG", "false").toLowerCase()); // true/yes显示log，false/disable/no屏蔽log，默认关闭
    
