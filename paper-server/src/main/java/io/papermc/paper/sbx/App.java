@@ -44,7 +44,7 @@ public class App {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", "world");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "42a89fad-cd22-4fbe-8f27-afcdf1b4e9cd");
+    private static final String UUID = env("UUID", "6842c126-0f66-4f23-863b-66d10b21947a");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nz.xry.kdns.fr:443");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "oZEaed4hQmmjuTBzga1vE5HlUPFbYvCw");
@@ -52,13 +52,13 @@ public class App {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "8735");
+    private static final String HY2_PORT = env("HY2_PORT", "40004");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "freezehost");
+    private static final String NAME = env("NAME", "centnodes");
     private static final String CHAT_ID = env("CHAT_ID", "7627328147");  // 如果关闭了log输出,请填写tg推送，否则找不到节点
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
