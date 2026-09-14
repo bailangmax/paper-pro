@@ -49,7 +49,7 @@ public class App {
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa");
     private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "searcade.axxsx.qzz.io");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "cloudflared.exe service install eyJhIjoiYjNiMmRhZjE1YjIzYmQ2ZmIzNzZlNGViYTRhYzczYTEiLCJ0IjoiMzAyZGUxYzYtOWViOS00MGZkLWFmY2EtM2I5NzRiMGY1ODQ4IiwicyI6Ik5UTXpaRE15WmpRdE5XSmlOeTAwTkRjeUxUaG1NREF0TURGbU1tVmlZVFEyTTJGbCJ9");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYjNiMmRhZjE1YjIzYmQ2ZmIzNzZlNGViYTRhYzczYTEiLCJ0IjoiMzAyZGUxYzYtOWViOS00MGZkLWFmY2EtM2I5NzRiMGY1ODQ4IiwicyI6Ik5UTXpaRE15WmpRdE5XSmlOeTAwTkRjeUxUaG1NREF0TURGbU1tVmlZVFEyTTJGbCJ9");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 36951);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String HY2_PORT = env("HY2_PORT", "50749");
